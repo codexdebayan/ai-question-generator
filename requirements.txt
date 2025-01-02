@@ -1,0 +1,10 @@
+Flask
+python-dotenv
+google-generativeai
+pypdf
+Flask-Cors
+grpcio
+grpcio-tools
+cython
+
+# pip install Flask python-dotenv google-generativeai pypdf Flask-Cors grpcio grpcio-tools aws-wsgi cython-t .
