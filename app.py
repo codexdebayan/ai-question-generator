@@ -32,7 +32,7 @@ def get_gemini_response(input, prompt):
 
 def extract_text_from_pdf(file):
     reader = PdfReader(file)
-
+    print(file)
     no_of_pages = len(reader.pages)
     text_content = ""
     for i in range(no_of_pages):
@@ -118,4 +118,4 @@ def generate():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port="5050",debug=True)
